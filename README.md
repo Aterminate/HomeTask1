@@ -1,3 +1,5 @@
+HomeTask 1
+------------------
 In Problem 1, I initiated the process by defining the diameters of both the Earth and the Sun in miles. Subsequently, I computed their radii by dividing the diameters by 2. Employing the volume formula for spheres, I calculated the volumes of both celestial bodies. Finally, I determined the ratio of the Sun's volume to that of the Earth and presented the results.
 
 In Problem 2, I implemented a labeled 'continue' statement with the label 'outer' to facilitate the skipping of iterations within the outer loop when a divisor was identified for the current 'i' value. I discarded the 'isPrime' variable, making it redundant. The prime-checking loop was optimized to examine divisors only up to the square root of the number in question. This optimization enhanced efficiency, as factors exceeding the square root must have corresponding factors smaller than the square root, which had already been scrutinized.
