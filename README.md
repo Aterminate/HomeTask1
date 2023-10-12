@@ -1,31 +1,7 @@
-In Problem1:
---------------
+In Problem 1, I initiated the process by defining the diameters of both the Earth and the Sun in miles. Subsequently, I computed their radii by dividing the diameters by 2. Employing the volume formula for spheres, I calculated the volumes of both celestial bodies. Finally, I determined the ratio of the Sun's volume to that of the Earth and presented the results.
 
-We first define the diameters of the Earth and the Sun in miles.
-Then, we calculate the radii by dividing the diameters by 2.
-Next, we use the volume formula for spheres to calculate the volumes of the Earth and the Sun.
-Finally, we calculate the ratio of the Sun's volume to the Earth's volume and print all the results.
+In Problem 2, I implemented a labeled 'continue' statement with the label 'outer' to facilitate the skipping of iterations within the outer loop when a divisor was identified for the current 'i' value. I discarded the 'isPrime' variable, making it redundant. The prime-checking loop was optimized to examine divisors only up to the square root of the number in question. This optimization enhanced efficiency, as factors exceeding the square root must have corresponding factors smaller than the square root, which had already been scrutinized.
 
+In Problem 3, I meticulously examined the characters within the provided text to tally the occurrences of spaces, vowels, and consonants. Employing a 'for-each' loop, each character in the text string was scrutinized. The 'Character.isWhitespace(ch)' method was employed to ascertain if a character constituted a space. Additionally, I checked if a character was a letter through 'Character.isLetter(ch)', incrementing the letter count while simultaneously evaluating if it qualified as a vowel (specifically, 'a', 'e', 'i', 'o', or 'u') while disregarding case sensitivity. Subsequently, I reported the counts of vowels, consonants, and spaces.
 
-In Problem2:
---------------
-
-we use the labeled continue statement with the label 'outer' to skip to the next iteration of the outer loop when a divisor is found for the current 'i' value.
-We eliminate the isPrime variable as it's no longer needed.
-We optimize the prime-checking loop by only testing divisors up to the square root of the number being checked. This is more efficient because any factors larger than the square root must have corresponding factors smaller than the square root, which have already been checked.
-
-In Problem3:
---------------
-
-It analyzes the characters in the given text to count the number of spaces, vowels, and consonants.
-It uses a for-each loop to iterate through each character in the text string.
-The Character.isWhitespace(ch) method is used to check if a character is a space.
-The code checks if a character is a letter using Character.isLetter(ch), and if it's a letter, it counts it and checks if it's a vowel (a, e, i, o, or u) while ignoring case.
-Finally, it prints the counts of vowels, consonants, and spaces in the text.
-
-In Problem 4:
---------------
-
-The program takes the soliloquy and splits it into words using regular expressions to account for spaces, commas, semicolons, and backticks as word separators.
-It then uses the bubble sort algorithm to sort the words in alphabetical order. Bubble sort compares adjacent words and swaps them if they are out of order, repeating this process until no more swaps are needed.
-Finally, it prints the sorted words in alphabetical order.
+In Problem 4, I took the provided soliloquy and segmented it into individual words by applying regular expressions to delineate spaces, commas, semicolons, and backticks as word delimiters. Subsequently, I employed the bubble sort algorithm to organize these words in alphabetical order. The bubble sort method entailed scrutinizing adjacent words and swapping them if they were found to be out of sequence, with this process continuing until no further swaps were necessary. Finally, I outputted the sorted words in ascending alphabetical order.
